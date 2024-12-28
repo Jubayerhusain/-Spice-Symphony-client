@@ -16,7 +16,7 @@ function RecommentFood() {
           <div key={food._id}>
             <div className="card bg-base-100 h-[500px] shadow-xl">
               <figure>
-                <img className="h-[250px] w-full"
+                <img className="h-[250px] w-full hover:scale-[1.15] transition-all"
                   src={food.image}
                   alt={food.foodName}
                 />
