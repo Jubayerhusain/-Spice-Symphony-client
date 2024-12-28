@@ -1,0 +1,63 @@
+[
+    {
+      "_id": "64fa8c48ad79b73a8a15d01a",
+      "foodName": "Chicken Alfredo Pasta",
+      "recipe": "Cook pasta, sauté chicken in butter, prepare creamy Alfredo sauce with garlic, Parmesan, and cream.",
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d01b",
+      "foodName": "Margherita Pizza",
+      "recipe": "Prepare pizza dough, add tomato sauce, fresh mozzarella, and basil. Bake at high heat until golden.",
+      "image": "https://images.unsplash.com/photo-1573821663912-6df460f9c684?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d01c",
+      "foodName": "Classic Caesar Salad",
+      "recipe": "Toss romaine lettuce with Caesar dressing, croutons, and Parmesan cheese. Add grilled chicken if desired.",
+      "image": "https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dwaf030910/images/recipe-Images/classic-caesar-salad-recipe.jpg?sw=1200&sh=1200&sm=fit"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d01d",
+      "foodName": "Beef Tacos",
+      "recipe": "Season and cook ground beef, assemble tacos with tortillas, lettuce, cheese, and salsa.",
+      "image": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos-760x570.jpg"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d01e",
+      "foodName": "Vegetable Stir-Fry",
+      "recipe": "Sauté mixed vegetables in soy sauce and garlic. Serve over steamed rice.",
+      "image": "https://www.eatlivetravelwrite.com/wp-content/uploads/2016/09/Oven-baked-vegetable-noodle-stir-fry-on-eatlivetravelwrite.com_.jpg"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d01f",
+      "foodName": "Butter Chicken",
+      "recipe": "Cook marinated chicken in a spiced tomato and butter-based sauce. Serve with naan or rice.",
+      "image": "https://img.taste.com.au/wrkdF8Ml/taste/2018/04/vegetarian-butter-chicken-136520-1.jpg"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d020",
+      "foodName": "BBQ Ribs",
+      "recipe": "Slow-cook ribs with a barbecue rub, then coat with BBQ sauce and grill to finish.",
+      "image": "https://ux2cms.imgix.net/images/Recipes_US/BBQ_Baby_Back_Ribs_recipe_02_935x580.jpg?auto=compress,format&w=750"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d021",
+      "foodName": "Sushi Platter",
+      "recipe": "Prepare sushi rice, assemble rolls with seaweed, rice, and fresh fish or vegetables.",
+      "image": "https://images.stockcake.com/public/1/a/9/1a9ed6c9-f4f2-4f45-b24c-53f61da694e1_large/sushi-platter-served-stockcake.jpg"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d022",
+      "foodName": "Chocolate Lava Cake",
+      "recipe": "Bake individual cakes with a gooey chocolate center. Serve warm with ice cream.",
+      "image": "https://i.ytimg.com/vi/M6fyELOU6qA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAbzXpQXDmA20B9cWHTSThWz3ZX0A"
+    },
+    {
+      "_id": "64fa8c48ad79b73a8a15d023",
+      "foodName": "Greek Gyro",
+      "recipe": "Fill pita bread with seasoned meat, tzatziki sauce, tomatoes, and onions.",
+      "image": "https://www.greekboston.com/wp-content/uploads/2018/07/Traditional-Gyro.jpg"
+    }
+  ]
+  

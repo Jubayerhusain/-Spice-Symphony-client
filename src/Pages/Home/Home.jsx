@@ -4,6 +4,7 @@ import Title from "../../Components/Shared/Title/Title";
 import DisplayFood from "./DisplayFood/DisplayFood";
 import SpiceBannar from "./SpiceBannar/SpiceBannar";
 import Manu from "./Menu/Manu";
+import RecommentFood from "./RecommentFood/RecommentFood";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <DisplayFood></DisplayFood>
       <SpiceBannar></SpiceBannar>
       <Manu></Manu>
+      <RecommentFood></RecommentFood>
     </div>
   );
 }

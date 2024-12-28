@@ -15,7 +15,7 @@ function Manu() {
   return (
     <menusection className="py-8">
       <Title subHeading={"Check it out"} heading={"FROM OUR MENU"}></Title>
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+      <div className="grid px-5 lg:grid-cols-2 grid-cols-1 gap-10">
         {menus.map((item) => (
           <div key={item._id}>
             <div className="flex space-x-3">
@@ -28,7 +28,7 @@ function Manu() {
                 <h2>{item.name}</h2>
                 <p>{item.recipe}</p>
               </div>
-              <p className="text-yellow-500">{item.price}</p>
+              <p className="text-yellow-500">${item.price}</p>
             </div>
           </div>
         ))}
