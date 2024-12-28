@@ -23,7 +23,7 @@ function Navbar() {
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar flex justify-between  bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -49,7 +49,7 @@ function Navbar() {
                 {NavLink}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Spice Symphony</a>
+          <a className="text-2xl font-bold"><p className="text-yellow-400 inline">Spice</p> Symphony</a>
         </div>
         <div className="navbar-end  hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
