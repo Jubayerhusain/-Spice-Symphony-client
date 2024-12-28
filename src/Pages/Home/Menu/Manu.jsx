@@ -18,7 +18,7 @@ function Manu() {
       <div className="grid px-5 lg:grid-cols-2 grid-cols-1 gap-10">
         {menus.map((item) => (
           <div key={item._id}>
-            <div className="flex space-x-3">
+            <div className="flex hover:shadow-xl hover:bg-gray-200 p-5 space-x-3">
               <img
                 className="h-[104px] w-[118px] rounded-tr-full rounded-b-full "
                 src={item.image}
