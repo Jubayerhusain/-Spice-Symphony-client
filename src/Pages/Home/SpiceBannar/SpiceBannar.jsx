@@ -13,7 +13,7 @@ function SpiceBannar() {
         }}
       >
         <div className="hero-content">
-          <div className="card bg-base-100 w-full py-16 rounded-none px-10 max-w-screen-2xl shrink-0 shadow-2xl">
+          <div className="card bg-white/80 w-full py-16 rounded-none px-10 max-w-screen-2xl shrink-0 shadow-2xl">
             <h1 className="text-3xl text-center my-5">Bistro Boss</h1>
             <p className="text-center">
               Your ultimate destination for premium, handpicked spices. We bring
