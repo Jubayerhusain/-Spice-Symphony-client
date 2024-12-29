@@ -5,6 +5,7 @@ import DisplayFood from "./DisplayFood/DisplayFood";
 import SpiceBannar from "./SpiceBannar/SpiceBannar";
 import Manu from "./Menu/Manu";
 import RecommentFood from "./RecommentFood/RecommentFood";
+import ParalaxMenu from "./ParalaxMenu/ParalaxMenu";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <SpiceBannar></SpiceBannar>
       <Manu></Manu>
       <RecommentFood></RecommentFood>
+      <ParalaxMenu></ParalaxMenu>
     </div>
   );
 }

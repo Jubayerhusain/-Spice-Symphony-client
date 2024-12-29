@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import { FaFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
 
-function Footer(){
+function Footer() {
   return (
     <footer className="py-8">
       <div className=" grid grid-cols-1 md:grid-cols-2 text-center md:text-left text-white">
         {/* Contact Us Section */}
-        <div className='bg-gray-800 text-center py-20'>
+        <div className="bg-gray-800 text-center py-20">
           <h3 className="text-lg font-bold mb-4">CONTACT US</h3>
           <p>123 ABS Street, Uni 21, Bangladesh</p>
           <p>+88 123456789</p>
@@ -14,18 +18,21 @@ function Footer(){
         </div>
 
         {/* Follow Us Section */}
-        <div className='bg-gray-900 text-center py-20'>
+        <div className="bg-gray-900 text-center py-20">
           <h3 className="text-lg font-bold mb-4">Follow US</h3>
           <p>Join us on social media</p>
-          <div className="flex justify-center md:justify-start space-x-4 mt-2">
+          <div className="flex justify-center space-x-4 mt-2">
             <a href="#" className="text-white hover:text-gray-400">
-              <i className="fab fa-facebook-f"></i>
+              <FaFacebook></FaFacebook>
             </a>
             <a href="#" className="text-white hover:text-gray-400">
-              <i className="fab fa-instagram"></i>
+              <FaLinkedin></FaLinkedin>
             </a>
             <a href="#" className="text-white hover:text-gray-400">
-              <i className="fab fa-twitter"></i>
+              <FaSquareXTwitter></FaSquareXTwitter>
+            </a>{" "}
+            <a href="#" className="text-white hover:text-gray-400">
+              <IoLogoInstagram></IoLogoInstagram>
             </a>
           </div>
         </div>
@@ -35,6 +42,6 @@ function Footer(){
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
