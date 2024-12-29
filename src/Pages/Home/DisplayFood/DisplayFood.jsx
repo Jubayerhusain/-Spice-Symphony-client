@@ -22,24 +22,34 @@ function DisplayFood() {
         className="mySwiper text-white"
       >
         <SwiperSlide>
-          <img className="relative w-9/12 mx-auto" src={slider1} alt="" />
-          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">Salads</h1>
+          <img className="relative w-9/12 mx-auto hover:scale-[1.05] transition-all" src={slider1} alt="" />
+          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">
+            Salads
+          </h1>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="relative w-9/12 mx-auto" src={slider2} alt="" />
-          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">pizzas</h1>
+          <img className="relative w-9/12 mx-auto hover:scale-[1.05] transition-all" src={slider2} alt="" />
+          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">
+            pizzas
+          </h1>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="relative w-9/12 mx-auto" src={slider3} alt="" />
-          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">Soups</h1>
+          <img className="relative w-9/12 mx-auto hover:scale-[1.05] transition-all" src={slider3} alt="" />
+          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">
+            Soups
+          </h1>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="relative w-9/12 mx-auto" src={slider4} alt="" />
-          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">desserts</h1>
+          <img className="relative w-9/12 mx-auto hover:scale-[1.05] transition-all" src={slider4} alt="" />
+          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">
+            desserts
+          </h1>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="relative w-9/12 mx-auto" src={slider5} alt="" />
-          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">Salads</h1>
+          <img className="relative w-9/12 mx-auto hover:scale-[1.05] transition-all" src={slider5} alt="" />
+          <h1 className="uppercase md:left-44 md:text-xl text-sm absolute bottom-8">
+            Salads
+          </h1>
         </SwiperSlide>
       </Swiper>
     </section>

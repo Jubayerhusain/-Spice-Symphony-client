@@ -36,8 +36,9 @@ function Manu() {
       <div className="text-center mt-14">
         <button className="btn px-14 border-b-4 border-b-gray-900">View All Menu</button>
       </div>
-      <div className="bg-gray-900 text-white py-14 text-center my-7">
+      <div className="bg-gray-900 space-y-2 text-white py-14 text-center my-7">
         <h1 className="text-3xl">Call US: +08814252875</h1>
+        <p>jubayerhusain360@gmail.com</p>
       </div>
     </menusection>
   );
