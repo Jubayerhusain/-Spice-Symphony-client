@@ -1,22 +1,25 @@
 import React, { useEffect } from "react";
 import Title from "./../../../Components/Shared/Title/Title";
 import { useState } from "react";
+import useMenu from "../../../hooks/dynamicData/useMenu";
 
 function Manu() {
-  const [menus, setMenus] = useState([]);
-  useEffect(() => {
-    fetch("/menu.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const populerItems = data.filter((item) => item.category === "popular");
-        setMenus(populerItems);
-      });
-  }, []);
+  const [menus] = useMenu()
+  const populerItems = menus.filter((item) => item.category === "popular");
+  // const [menus, setMenus] = useState([]);
+  // useEffect(() => {
+  //   fetch("/menu.json")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       const populerItems = data.filter((item) => item.category === "popular");
+  //       setMenus(populerItems);
+  //     });
+  // }, []);
   return (
     <menusection className="py-8">
       <Title subHeading={"Check it out"} heading={"FROM OUR MENU"}></Title>
       <div className="grid px-5 lg:grid-cols-2 grid-cols-1 gap-10">
-        {menus.map((item) => (
+        {populerItems.map((item) => (
           <div key={item._id}>
             <div className="flex hover:shadow-xl hover:bg-gray-200 p-5 space-x-3">
               <img
@@ -25,8 +28,8 @@ function Manu() {
                 alt=""
               />
               <div className="flex flex-col">
-                <h2>{item.name}</h2>
-                <p>{item.recipe}</p>
+              <h2 className="text-lg font-semibold">{item.name}</h2>
+              <p>{item.recipe}</p>
               </div>
               <p className="text-yellow-500">${item.price}</p>
             </div>
