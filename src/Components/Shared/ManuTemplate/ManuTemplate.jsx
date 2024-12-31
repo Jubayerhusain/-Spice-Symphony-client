@@ -21,6 +21,9 @@ function ManuTemplate({menus}) {
           </div>
         ))}
       </div>
+      <div className="text-center mt-14">
+        <button className="btn px-14 border-b-4 border-b-gray-900">Order Your favorit Food</button>
+      </div>
     </div>
   );
 }
