@@ -40,7 +40,7 @@ function OurMenu() {
         <Title heading={"TODAY'S OFFER"} subHeading={"Dont Miss"}></Title>
       </div>
       <section>
-        <ManuTemplate menus={offerFood}></ManuTemplate>
+        <ManuTemplate menus={offerFood} title={'offer'}></ManuTemplate>
       </section>
 
       {/* dessert Section  */}
@@ -52,7 +52,7 @@ function OurMenu() {
         ></FoodParalax>
       </section>
       <section>
-        <ManuTemplate menus={dessertFood}></ManuTemplate>
+        <ManuTemplate menus={dessertFood} title={'dessert'}></ManuTemplate>
       </section>
       {/* Pizzas Section  */}
       <section>
@@ -63,7 +63,7 @@ function OurMenu() {
         ></FoodParalax>
       </section>
       <section>
-        <ManuTemplate menus={pizzatFood}></ManuTemplate>
+        <ManuTemplate menus={pizzatFood} title={'pizza'}></ManuTemplate>
       </section>
       {/* Salad Section  */}
       <section>
@@ -74,7 +74,7 @@ function OurMenu() {
         ></FoodParalax>
       </section>
       <section>
-        <ManuTemplate menus={saladtFood}></ManuTemplate>
+        <ManuTemplate menus={saladtFood} title={'salad'}></ManuTemplate>
       </section>
       {/* Soupe Section  */}
       <section>
@@ -85,7 +85,7 @@ function OurMenu() {
         ></FoodParalax>
       </section>
       <section>
-        <ManuTemplate menus={soupFood}></ManuTemplate>
+        <ManuTemplate menus={soupFood} title={'soup'}></ManuTemplate>
       </section>
     </div>
   );

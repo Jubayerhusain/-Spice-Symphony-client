@@ -16,7 +16,7 @@ function BannarCover({
         backgroundRepeat: `no-repeat`,
       }}
     >
-      <div className="w-11/12 lg:w-8/12 mx-auto p-20 text-center bg-gray-900/50">
+      <div className="w-11/12 lg:w-8/12 mx-auto space-y-3 p-20 text-center bg-gray-900/50">
         <h1 className="text-5xl uppercase text-white font-bold">{heading}</h1>
         <p className="text-md font-semibold text-white/80">{subHeading}</p>
       </div>
