@@ -14,7 +14,7 @@ function Navbar() {
         <Link>DASHBOARD</Link>
       </li>
       <li>
-        <Link>OUR MENU</Link>
+        <Link to={'/ourMenu'}>OUR MENU</Link>
       </li>
       <li>
         <Link>OUR SHOP</Link>
@@ -22,7 +22,7 @@ function Navbar() {
     </>
   );
   return (
-    <div className="navbar md:w-11/12 text-white py-5 px-5 mx-auto flex fixed z-10 bg-black/15 justify-between">
+    <div className="navbar md:w-11/12 text-white py-5 px-5 mx-auto flex fixed z-10 bg-black/25 justify-between">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
