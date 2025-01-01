@@ -17,7 +17,7 @@ function Navbar() {
         <Link to={'/ourMenu'}>OUR MENU</Link>
       </li>
       <li>
-        <Link to={'/ourShop'}>OUR SHOP</Link>
+        <Link to={'/ourShop/salad'}>OUR SHOP</Link>
       </li>
     </>
   );
